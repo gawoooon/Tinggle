@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <title>회사소개</title>
-</head>
-<body>
-<nav>
-  <a href="/company/">company info</a>
-  <a href="/product/">product</a>
-</nav>
-
-<h1>회사소개 페이지입니다.</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+<div class="container my-5">
+    <h1>회사소개 페이지입니다.</h1>
+    <p class="mt-4">이곳은 회사에 대한 소개글이 들어갈 공간입니다. 여러 줄의 텍스트로 공간을 차지할 수 있습니다.</p>
+</div>
+{% endblock %}
